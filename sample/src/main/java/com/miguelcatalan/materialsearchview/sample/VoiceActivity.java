@@ -47,6 +47,11 @@ public class VoiceActivity extends AppCompatActivity {
 
         searchView.setOnSearchViewListener(new MaterialSearchView.SearchViewListener() {
             @Override
+            public void onSearchViewAnimationStart() {
+
+            }
+
+            @Override
             public void onSearchViewShown() {
                 //Do some magic
             }
