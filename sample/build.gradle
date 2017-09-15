@@ -5,11 +5,11 @@ android {
     buildToolsVersion "26.0.1"
 
     defaultConfig {
-        applicationId "com.miguelcatalan.materialsearchview.sample"
+//        applicationId "com.miguelcatalan.materialsearchview.sample"
         minSdkVersion 14
         targetSdkVersion 26
         versionCode 7
-        versionName "2.1.1"
+        versionName "2.1.0"
     }
     buildTypes {
         release {
