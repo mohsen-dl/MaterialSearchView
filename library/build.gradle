@@ -18,7 +18,7 @@ android {
         minSdkVersion 14
         targetSdkVersion 26
         versionCode 2
-        versionName "2.0.0"
+        versionName "2.1.0"
     }
     buildTypes {
         release {
@@ -38,7 +38,7 @@ publish {
     userOrg = 'mohsen-dl'
     groupId = 'com.github.mohsen-dl'
     artifactId = 'MaterialSearchView'
-    publishVersion = '2.0.0'
+    publishVersion = '2.1.0'
     desc = 'Cute library to implement SearchView in a Material Design Approach'
     website = 'https://github.com/mohsen-dl/MaterialSearchView'
 }
