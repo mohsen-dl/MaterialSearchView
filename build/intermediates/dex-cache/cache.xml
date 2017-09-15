@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\MyWorks\myLibraries\MaterialSearchView\MaterialSearchView\library\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1e754df07a7b22d05ea7cf85d789e0b0982495e8">
+        <dex dex="D:\MyWorks\myLibraries\MaterialSearchView\MaterialSearchView\sample\build\intermediates\pre-dexed\debug\classes_43d4654dde1d8c629776a397dde8a3708e42b81c.jar" />
+    </item>
+
+</items>
