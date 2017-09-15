@@ -1,13 +1,13 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
+//apply plugin: 'com.novoda.bintray-release'
 
 buildscript {
     repositories {
         jcenter()
     }
-    dependencies {
-        classpath 'com.novoda:bintray-release:0.3.4'
-    }
+//    dependencies {
+//        classpath 'com.novoda:bintray-release:0.3.4'
+//    }
 }
 
 android {
@@ -34,11 +34,11 @@ dependencies {
     compile 'com.android.support:design:26.+'
 }
 
-publish {
-    userOrg = 'mohsen-dl'
-    groupId = 'com.github.mohsen-dl'
-    artifactId = 'MaterialSearchView'
-    publishVersion = '2.1.0'
-    desc = 'Cute library to implement SearchView in a Material Design Approach'
-    website = 'https://github.com/mohsen-dl/MaterialSearchView'
-}
+//publish {
+//    userOrg = 'mohsen-dl'
+//    groupId = 'com.github.mohsen-dl'
+//    artifactId = 'MaterialSearchView'
+//    publishVersion = '2.1.0'
+////    desc = 'Cute library to implement SearchView in a Material Design Approach'
+////    website = 'https://github.com/mohsen-dl/MaterialSearchView'
+//}
