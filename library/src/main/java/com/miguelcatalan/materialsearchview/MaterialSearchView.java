@@ -540,6 +540,9 @@ public class MaterialSearchView extends FrameLayout implements Filter.FilterList
         AnimationUtil.AnimationListener animationListener = new AnimationUtil.AnimationListener() {
             @Override
             public boolean onAnimationStart(View view) {
+                if (mSearchViewListener != null) {
+                    mSearchViewListener.onSearchViewAnimationStart();
+                }
                 return false;
             }
 
@@ -728,6 +731,9 @@ public class MaterialSearchView extends FrameLayout implements Filter.FilterList
     }
 
     public interface SearchViewListener {
+
+        void onSearchViewAnimationStart();
+
         void onSearchViewShown();
 
         void onSearchViewClosed();
